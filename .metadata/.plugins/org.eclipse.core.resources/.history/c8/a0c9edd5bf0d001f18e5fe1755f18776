@@ -7,13 +7,12 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 		
 		VendingMachine vendingMachine = null;
-		vendingMachine.displayProducts(); // 자판기 상품 안내
+		vendingMachine.displayProducts();
 		
-		String selectedProduct = scanner.nextLine(); // 상품입력
-		int selectProductNumber = Integer.parseInt(selectedProduct); // 상품번호
+		String selectedProduct = scanner.nextLine();
+		int selectProductNumber = Integer.parseInt(selectedProduct);
 		
-		vendingMachine.selectProduct(selectProductNumber); // 자판기 상품 처리
-		// 동전
+		vendingMachine.selectProduct(selectProductNumber);
 		vendingMachine.displayEnterCoinsMessage();
 		String userEnteredCoins = scanner.nextLine();
 		
