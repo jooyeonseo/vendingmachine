@@ -1,0 +1,6 @@
+package vendingMachine;
+
+public enum Coin {
+	FIVE_CENTS,TEN_CENTS,TWENTY_CENTS,FIFTY_CENTS,HUNDRED_CENTS;
+	
+}

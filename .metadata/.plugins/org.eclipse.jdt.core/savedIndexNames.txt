@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\ys_study\VendingMachine\.metadata\.plugins\org.eclipse.jdt.core
+403267691.index
+1865797976.index
+3402720742.index
