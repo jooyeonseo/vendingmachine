@@ -6,17 +6,11 @@ public enum Coin {
     COIN_50(50),
     COIN_10(10);
 
-    private int value;
+    private final int amount;
 
-    Coin(int value) {
-        this.value = value;
+    Coin(final int amount) {
+        this.amount = amount;
     }
-
-	public int getValue() {
-		return value;
-	}
-    
-    
 
     
 }

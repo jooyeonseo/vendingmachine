@@ -2,7 +2,7 @@ package vendingMachine;
 
 public enum Product {
 
-	TWIX(1,100),COKE(2,50),WTAER(3,30),SANDWITCH(4,150); // 상품 아이디, 가격
+	TWIX(1,100),COKE(2,50),WTAER(3,30),SANDWITCH(4,150);
 	
 	private int id;
 	private int price;

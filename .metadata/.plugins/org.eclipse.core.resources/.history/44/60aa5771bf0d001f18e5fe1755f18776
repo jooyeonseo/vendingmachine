@@ -1,6 +1,6 @@
 package vendingMachine;
 
-public class CoinBundle { //동전 수 저장
+public class CoinBundle {
 	
 	public int number500Coins;
 	public int number100Coins;
